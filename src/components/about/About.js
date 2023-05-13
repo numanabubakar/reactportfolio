@@ -14,14 +14,6 @@ export const About = () => {
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
               Hey! I&apos;m Numan, I&apos;m a MERN stack developer with a passion for building web applications and mobile apps. I have expertise in using ReactJS and React Native, two powerful frameworks for creating dynamic and interactive user interfaces.
-            
-
-
-
-
-
-
-
             </p>
           </Reveal>
           <Reveal>
