@@ -1,4 +1,4 @@
-import { StandardButton } from "../Button/StandardButton";
+import { OutlineButton } from "../Button/OutlineButton";
 import { Reveal } from "../utils/Reveal";
 import { DotGrid } from "./DotGrid";
 import styles from "./hero.module.scss";
@@ -24,11 +24,11 @@ export const Hero = () => {
           </p>
         </Reveal>
         <Reveal>
-          <StandardButton
+          <OutlineButton
             onClick={() => document.getElementById("contact")?.scrollIntoView()}
           >
             Contact me
-          </StandardButton>
+          </OutlineButton>
         </Reveal>
       </div>
       <DotGrid />
