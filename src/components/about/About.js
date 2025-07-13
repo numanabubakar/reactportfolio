@@ -13,17 +13,17 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Hey! I&apos;m Numan, I&apos;m a MERN stack developer with a passion for building web applications and mobile apps. I have expertise in using ReactJS and React Native, two powerful frameworks for creating dynamic and interactive user interfaces.
+              Hey! I&apos;m Numan, I&apos;m an AI Full Stack Engineer with a passion for building intelligent applications and AI-powered solutions. I specialize in integrating cutting-edge AI technologies like Large Language Models (LLMs), RAG-based systems, and custom AI pipelines into full-stack applications.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              With ReactJS, I enjoy crafting responsive and scalable web applications. Leveraging the component-based architecture, I can create reusable UI components that enhance code maintainability and facilitate a smooth development process. ReactJS's virtual DOM and efficient rendering make it an ideal choice for building performant applications.
+              My expertise spans the entire AI development stack - from fine-tuning LLMs on specific datasets to building robust RAG (Retrieval-Augmented Generation) systems that provide contextually relevant responses. I enjoy crafting intelligent applications that leverage AI to solve real-world problems, whether it's automating data pipelines, creating conversational AI assistants, or building document analysis systems.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              In addition to web development, I am also skilled in React Native, allowing me to extend my expertise to mobile app development. React Native enables me to build cross-platform apps using a single codebase, saving time and effort. I appreciate the ability to leverage the power of ReactJS to create native-like mobile experiences for both iOS and Android platforms.
+              On the full-stack side, I work with modern technologies like Next.js, FastAPI, Python, and various AI frameworks including LangChain, OpenAI SDK, and vector databases. I have experience building scalable architectures that seamlessly integrate AI capabilities with traditional web applications, ensuring both performance and user experience are optimized.
             </p>
           </Reveal>
           <Reveal>

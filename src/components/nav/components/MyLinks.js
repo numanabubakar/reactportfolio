@@ -16,7 +16,7 @@ export const MyLinks = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.0 }}
       >
-        <Link to="https://www.linkedin.com/in/numan-abubakar-8506b8246/" target="_blank" rel="nofollow">
+        <Link to="https://www.linkedin.com/in/numan-a-8506b8246/" target="_blank" rel="nofollow">
           <AiFillLinkedin size="2.4rem" />
         </Link>
       </motion.span>

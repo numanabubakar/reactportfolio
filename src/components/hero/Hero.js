@@ -14,12 +14,12 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
-            I&apos;m a <span>MERN Stack Developer</span>
+            I&apos;m an <span>AI Full Stack Engineer</span>
           </h2>
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            I&apos;ve spent the last 2 years building web applications and mobile apps. I have expertise in using ReactJS and React Native, two powerful frameworks for creating dynamic and interactive user interfaces😉
+            I&apos;ve spent the last 3 years building AI-powered applications and full-stack solutions. I specialize in AI integration, RAG-based systems, LLM fine-tuning, and creating intelligent applications that bridge the gap between cutting-edge AI technology and practical business solutions😉
             Let&apos;s connect!
           </p>
         </Reveal>
