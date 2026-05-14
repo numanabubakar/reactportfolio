@@ -94,7 +94,7 @@ const projects = [
   },
   {
     title: "LULC Mobile Classifier",
-    imgSrc: "assets/img/lulc_mobile.png",
+    imgSrc: "assets/img/lulc_mobile.jpeg",
     code: "https://github.com/numanabubakar/LULC-Recognition-App",
     projectLink: "#",
     tech: ["React Native", "TypeScript", "Deep Learning", "Lottie Animations"],
