@@ -52,7 +52,7 @@ export const Project = ({
         >
           <img
             src={imgSrc}
-            alt={`An image of the ${title} project.`}
+            alt={title}
             style={{
               width: hovered ? "90%" : "85%",
               rotate: hovered ? "2deg" : "0deg",

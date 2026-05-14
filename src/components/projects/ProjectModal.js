@@ -41,7 +41,7 @@ export const ProjectModal = ({
         <img
           className={styles.modalImage}
           src={imgSrc}
-          alt={`An image of the ${title} project.`}
+          alt={title}
         />
         <div className={styles.modalContent}>
           <h4>{title}</h4>
