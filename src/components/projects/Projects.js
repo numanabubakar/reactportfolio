@@ -18,6 +18,106 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "IdeaForge Pakistan - AI Startup Validator",
+    imgSrc: "assets/img/ideaforge.png",
+    code: "https://github.com/numanabubakar/AI-Startup-Validator",
+    projectLink: "https://ai-startup-validator-pearl.vercel.app/",
+    tech: ["Next.js", "TypeScript", "Google Gemini AI", "Supabase", "Tailwind CSS", "Recharts"],
+    description:
+      "An AI-driven platform that validates startup ideas specifically for the Pakistani market, providing analytical reports and market insights.",
+    modalContent: (
+      <>
+        <p>
+          IdeaForge Pakistan is a cutting-edge platform designed to empower Pakistani entrepreneurs by providing AI-driven validation for their startup ideas.
+        </p>
+        <p>
+          The system utilizes Google Gemini 1.5 Flash to perform deep market analysis, sentiment analysis, and risk assessment tailored to the local economic landscape.
+        </p>
+        <p>
+          Key features include an interactive Pakistan SVG map highlighting opportunity scores by province, dynamic analytical charts using Recharts, and automated PDF report generation.
+        </p>
+        <p>
+          Built with Next.js 15 and TypeScript, the application ensures high performance and type safety. It leverages Supabase for secure data persistence and user authentication with Row Level Security (RLS).
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "NoteHub - AI Study Assistant",
+    imgSrc: "assets/img/notehub.png",
+    code: "https://github.com/numanabubakar/NoteTube",
+    projectLink: "#",
+    tech: ["Next.js", "React", "Gemini Pro", "Supabase", "Framer Motion", "Radix UI"],
+    description:
+      "An AI-powered study platform that transforms YouTube videos into structured study notes, quizzes, and analytical progress reports.",
+    modalContent: (
+      <>
+        <p>
+          NoteHub revolutionizes the way students learn from online video content. It automatically extracts transcripts from YouTube videos and uses Gemini Pro to generate comprehensive study materials.
+        </p>
+        <p>
+          The platform features a sophisticated UI built with Radix UI and Shadcn/UI, with smooth animations powered by Framer Motion. Users can track their learning progress through a detailed dashboard with Recharts visualization.
+        </p>
+        <p>
+          Integrated features include AI-generated quizzes to test subject mastery, "Learning Streaks" to encourage consistency, and the ability to export notes to high-quality PDF documents.
+        </p>
+        <p>
+          NoteHub uses a modern 3-tier architecture with Next.js App Router and Supabase, ensuring a scalable and secure environment for academic growth.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "LULC Recognition Dashboard",
+    imgSrc: "assets/img/lulc_web.png",
+    code: "https://github.com/numanabubakar/lulc_classifier",
+    projectLink: "https://lulc-classifier.vercel.app/",
+    tech: ["Next.js", "FastAPI", "PyTorch", "Tailwind CSS", "Satellite Imagery"],
+    description:
+      "A research-oriented Deep Learning dashboard for Land Use & Land Cover classification using satellite imagery and PyTorch.",
+    modalContent: (
+      <>
+        <p>
+          The LULC Recognition Dashboard is a professional ML system designed for classifying land use and land cover from satellite images.
+        </p>
+        <p>
+          It features a scientific laboratory aesthetic with a Slate-950 dark theme. The backend is powered by FastAPI and PyTorch, supporting multiple benchmark datasets like EuroSAT and MLRSNet.
+        </p>
+        <p>
+          The dashboard provides real-time inference with detailed confidence gauges, inference latency tracking, and technical specifications of the explainable CNN architecture.
+        </p>
+        <p>
+          This project demonstrates high-level software engineering practices for ML systems, including model caching, modular preprocessing pipelines, and a mobile-first responsive design.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "LULC Mobile Classifier",
+    imgSrc: "assets/img/lulc_mobile.png",
+    code: "https://github.com/numanabubakar/LULC-Recognition-App",
+    projectLink: "#",
+    tech: ["React Native", "TypeScript", "Deep Learning", "Lottie Animations"],
+    description:
+      "A mobile application for real-time satellite imagery classification with an integrated AI chatbot for geographical analysis.",
+    modalContent: (
+      <>
+        <p>
+          LULC Mobile Classifier brings the power of Deep Learning land classification to mobile devices, allowing users to analyze satellite imagery on the go.
+        </p>
+        <p>
+          Built with React Native and TypeScript, the app features a smooth user experience with Lottie splash screens and a modern deep space navy aesthetic.
+        </p>
+        <p>
+          Users can select images from their camera or gallery to classify land cover types with high precision. The app also features an integrated AI chatbot to help interpret classification results.
+        </p>
+        <p>
+          The system connects to a robust backend service for real-time inference, providing instant feedback on land cover patterns and geographical trends.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Automated Multi-Source Data Pipeline",
     imgSrc: 'assets/img/n8n.png',
     code: "https://github.com/numanabubakar",
@@ -200,13 +300,13 @@ const projects = [
     imgSrc: "assets/img/crud.png",
     code: "https://github.com/numanabubakar",
     projectLink: "https://firebasecrudbynuman.netlify.app",
-    tech: ["ReactJS", "Sass", "Firebase",'CRUD Operation' ],
+    tech: ["ReactJS", "Sass", "Firebase", 'CRUD Operation'],
     description:
       "This is a crud operation using firebase and reactjs. User can Login and Register ,Data is stored primarily in Firebase Firestore",
     modalContent: (
       <>
         <p>
-        This is a crud operation using firebase and reactjs. User can Login and Register and Edit Profile and Delete Account Permanently
+          This is a crud operation using firebase and reactjs. User can Login and Register and Edit Profile and Delete Account Permanently
         </p>
         <p>
           I work primarily on the backend, a collection of Node & Express
@@ -267,33 +367,33 @@ const projects = [
     imgSrc: "assets/img/react2.jpeg",
     code: "https://github.com/numanabubakar",
     projectLink: "https://drive.google.com/drive/folders/1cGlvd5vtgF42FQ-wWBls3j3L-fslBf4H?usp=share_link",
-    tech: ["React Native", "Firebase", "React Navigator","Skeleton Effect "],
+    tech: ["React Native", "Firebase", "React Navigator", "Skeleton Effect "],
     description:
       "Huas Of Holder is an Real State APP Developed by using React Native and Firebase For storing data . in this app user can... 🌈",
     modalContent: (
       <>
 
-      <Reveal>
-        <p>Alright, </p>
-      </Reveal>
-      <Reveal>
+        <Reveal>
+          <p>Alright, </p>
+        </Reveal>
+        <Reveal>
 
-        <p>
-        Huas Of Holder is an Real State APP Developed by using React Native and Firebase For storing data . in this app user can.
-        </p>
-      </Reveal>
-      <Reveal>
+          <p>
+            Huas Of Holder is an Real State APP Developed by using React Native and Firebase For storing data . in this app user can.
+          </p>
+        </Reveal>
+        <Reveal>
 
-        <p>You get the idea. Now more lorem {":)"}</p>
-      </Reveal>
-      <Reveal>
+          <p>You get the idea. Now more lorem {":)"}</p>
+        </Reveal>
+        <Reveal>
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-      </Reveal>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+            quia officia odio nulla consectetur aperiam ad tempora magni magnam
+            nesciunt.
+          </p>
+        </Reveal>
         <p>
           Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
           rerum dolorum. Deserunt soluta modi culpa animi.
