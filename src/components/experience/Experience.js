@@ -30,7 +30,7 @@ const experience = [
   },
   {
     title: "Meshlogix Solutions",
-    position: "Artificial Intelligence Engineer",
+    position: "Associate Software Engineer",
     time: "Feb 2025 - Jan 2026",
     location: "Lahore, Punjab, Pakistan · Hybrid",
     description:
