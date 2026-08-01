@@ -6,23 +6,26 @@ export const SideBar = () => {
   const [selected, setSelected] = useState("");
 
   useEffect(() => {
-    const sections = document.querySelectorAll(".section-wrapper");
+    const handleScroll = () => {
+      const sections = document.querySelectorAll(".section-wrapper");
+      let current = "";
 
-    const options = {
-      threshold: 0.3,
-    };
-
-    const callback = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setSelected(entry.target.id);
+      sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top <= window.innerHeight * 0.4) {
+          current = section.id;
         }
       });
+
+      if (current) {
+        setSelected(current);
+      }
     };
 
-    const observer = new IntersectionObserver(callback, options);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
 
-    sections.forEach((section) => observer.observe(section));
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
