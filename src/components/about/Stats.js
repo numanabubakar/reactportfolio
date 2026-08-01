@@ -1,5 +1,5 @@
 import styles from "./stats.module.scss";
-import { AiFillCode, AiFillSmile } from "react-icons/ai";
+import { AiFillCode } from "react-icons/ai";
 import { Reveal } from "../utils/Reveal";
 
 export const Stats = () => {
@@ -26,16 +26,6 @@ export const Stats = () => {
             <span className="chip">GitHub</span>
             <span className="chip">Docker</span>
             <span className="chip">AWS</span>
-          </div>
-        </div>
-      </Reveal>
-      <Reveal>
-        <div className={styles.statColumn}>
-          <h4>
-            <AiFillSmile size="2.4rem" color="var(--brand)" />
-            <span>Use for fun</span>
-          </h4>
-          <div className={styles.statGrid}>
             <span className="chip">React Native</span>
             <span className="chip">Streamlit</span>
             <span className="chip">Chainlit</span>
@@ -52,3 +42,4 @@ export const Stats = () => {
     </div>
   );
 };
+

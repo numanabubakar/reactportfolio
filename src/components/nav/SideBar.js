@@ -70,6 +70,16 @@ export const SideBar = () => {
       <motion.a
         initial={{ x: -70 }}
         animate={{ x: 0 }}
+        transition={{ duration: 0.5, delay: 0.35 }}
+        href="#volunteering"
+        onClick={() => setSelected("volunteering")}
+        className={selected === "volunteering" ? styles.selected : ""}
+      >
+        Vol.
+      </motion.a>
+      <motion.a
+        initial={{ x: -70 }}
+        animate={{ x: 0 }}
         transition={{ duration: 0.5, delay: 0.4 }}
         href="#contact"
         onClick={() => setSelected("contact")}

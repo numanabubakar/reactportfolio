@@ -18,7 +18,7 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "IdeaForge Pakistan - AI Startup Validator",
+    title: "IAI Startup Idea Validator & Co-Founder Agent",
     imgSrc: "assets/img/ideaforge.png",
     code: "https://github.com/numanabubakar/AI-Startup-Validator",
     projectLink: "https://ai-startup-validator-pearl.vercel.app/",
@@ -46,7 +46,7 @@ const projects = [
     title: "NoteHub - AI Study Assistant",
     imgSrc: "assets/img/notehub.png",
     code: "https://github.com/numanabubakar/NoteTube",
-    projectLink: "#",
+    projectLink: "https://note-tube-fyp.vercel.app/",
     tech: ["Next.js", "React", "Gemini Pro", "Supabase", "Framer Motion", "Radix UI"],
     description:
       "An AI-powered study platform that transforms YouTube videos into structured study notes, quizzes, and analytical progress reports.",
@@ -96,7 +96,7 @@ const projects = [
     title: "LULC Mobile Classifier",
     imgSrc: "assets/img/lulc_mobile.jpeg",
     code: "https://github.com/numanabubakar/LULC-Recognition-App",
-    projectLink: "#",
+    projectLink: "https://drive.google.com/file/d/13aK8sNAWProWrYVPvQ-d8dX87s0nTo1s/view?usp=sharing",
     tech: ["React Native", "TypeScript", "Deep Learning", "Lottie Animations"],
     description:
       "A mobile application for real-time satellite imagery classification with an integrated AI chatbot for geographical analysis.",
@@ -121,7 +121,7 @@ const projects = [
     title: "Automated Multi-Source Data Pipeline",
     imgSrc: 'assets/img/n8n.png',
     code: "https://github.com/numanabubakar",
-    projectLink: "#",
+    projectLink: "https://www.linkedin.com/posts/numanabubakar_automation-n8n-supabase-ugcPost-7342935682996170752-x-5O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADz43bwBQwew79Ql4Crv9FW0otUusHqZy9Y",
     tech: ["n8n", "Supabase", "Slack", "Airtable", "pgvector", "RAG"],
     description:
       "A no-code/low-code data pipeline that automates collection, transformation, and delivery of data across platforms with semantic search capabilities.",
@@ -148,7 +148,7 @@ const projects = [
   {
     title: "AI Medical Consultant",
     imgSrc: "assets/img/medical.png",
-    code: "https://github.com/numanabubakar",
+    code: "https://github.com/numanabubakar/ai-doctor-platform",
     projectLink: "https://aidocconsultant.netlify.app/",
     tech: ["Next.js", "FastAPI", "Python", "LangChain", "Firebase", "LLM"],
     description:
@@ -176,7 +176,7 @@ const projects = [
   {
     title: "Talk with Your PDF",
     imgSrc: "assets/img/talkpdf.png",
-    code: "https://github.com/numanabubakar",
+    code: "https://github.com/numanabubakar/talkToPDF",
     projectLink: "https://askfrompdf.streamlit.app/",
     tech: ["Python", "FastAPI", "Streamlit", "LangChain", "FAISS", "OpenAI"],
     description:
@@ -201,38 +201,38 @@ const projects = [
       </>
     ),
   },
-  {
-    title: "AI Roaster",
-    imgSrc: "assets/img/roast.png",
-    code: "https://github.com/numanabubakar",
-    projectLink: "#",
-    tech: ["Chainlit", "OpenAI SDK", "Gemini", "Python", "UV"],
-    description:
-      "An engaging AI-based conversation app that playfully 'roasts' users with humorous and witty responses using multiple LLMs.",
-    modalContent: (
-      <>
-        <p>
-          Created an engaging AI-based conversation app designed to playfully "roast" users with humorous and witty responses, providing entertainment through intelligent AI interactions.
-        </p>
-        <p>
-          Built using Chainlit for real-time chat UI, providing a smooth and responsive conversational experience with instant message delivery and dynamic interface updates.
-        </p>
-        <p>
-          Integrated both OpenAI and Gemini models to dynamically generate diverse and entertaining outputs, ensuring varied and creative responses that keep conversations engaging and unpredictable.
-        </p>
-        <p>
-          Implemented real-time conversational roasting using advanced LLMs, with sophisticated prompt engineering to ensure responses are humorous while maintaining appropriate boundaries and user safety.
-        </p>
-        <p>
-          The application demonstrates advanced AI integration capabilities, showcasing how multiple language models can be orchestrated to create engaging and interactive user experiences.
-        </p>
-      </>
-    ),
-  },
+  // {
+  //   title: "AI Roaster",
+  //   imgSrc: "assets/img/roast.png",
+  //   code: "https://github.com/numanabubakar",
+  //   projectLink: "#",
+  //   tech: ["Chainlit", "OpenAI SDK", "Gemini", "Python", "UV"],
+  //   description:
+  //     "An engaging AI-based conversation app that playfully 'roasts' users with humorous and witty responses using multiple LLMs.",
+  //   modalContent: (
+  //     <>
+  //       <p>
+  //         Created an engaging AI-based conversation app designed to playfully "roast" users with humorous and witty responses, providing entertainment through intelligent AI interactions.
+  //       </p>
+  //       <p>
+  //         Built using Chainlit for real-time chat UI, providing a smooth and responsive conversational experience with instant message delivery and dynamic interface updates.
+  //       </p>
+  //       <p>
+  //         Integrated both OpenAI and Gemini models to dynamically generate diverse and entertaining outputs, ensuring varied and creative responses that keep conversations engaging and unpredictable.
+  //       </p>
+  //       <p>
+  //         Implemented real-time conversational roasting using advanced LLMs, with sophisticated prompt engineering to ensure responses are humorous while maintaining appropriate boundaries and user safety.
+  //       </p>
+  //       <p>
+  //         The application demonstrates advanced AI integration capabilities, showcasing how multiple language models can be orchestrated to create engaging and interactive user experiences.
+  //       </p>
+  //     </>
+  //   ),
+  // },
   {
     title: "Employee Management System",
     imgSrc: "assets/img/employeeadmin.png",
-    code: "https://github.com/numanabubakar",
+    code: "https://github.com/numanabubakar/EmployeeTracker",
     projectLink: "https://employeetracker-admin-panel.netlify.app",
     tech: ["React Native", "Next.js", "React Navigation", "Leaflet Maps", "Context API"],
     description:
@@ -263,7 +263,7 @@ const projects = [
   {
     title: "My Surah Playlist",
     imgSrc: 'assets/img/surah.png',
-    code: "https://github.com/numanabubakar",
+    code: "https://github.com/numanabubakar/Quran-Surahs",
     projectLink: "https://mysurahplaylist.web.app/",
     tech: ["HTML", "CSS", "JS"],
     description:
@@ -298,7 +298,7 @@ const projects = [
   {
     title: "Firebase CRUD",
     imgSrc: "assets/img/crud.png",
-    code: "https://github.com/numanabubakar",
+    code: "https://github.com/numanabubakar/FirebaseCRUD",
     projectLink: "https://firebasecrudbynuman.netlify.app",
     tech: ["ReactJS", "Sass", "Firebase", 'CRUD Operation'],
     description:
@@ -386,18 +386,7 @@ const projects = [
 
           <p>You get the idea. Now more lorem {":)"}</p>
         </Reveal>
-        <Reveal>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-            quia officia odio nulla consectetur aperiam ad tempora magni magnam
-            nesciunt.
-          </p>
-        </Reveal>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
-        </p>
       </>
     ),
   },

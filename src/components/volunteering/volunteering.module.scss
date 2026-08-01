@@ -1,0 +1,138 @@
+.volunteeringContent {
+  margin-top: 1.5rem;
+}
+
+.description {
+  font-size: var(--text-md);
+  line-height: 1.7;
+  color: var(--text);
+  margin-bottom: 2rem;
+  font-weight: 200;
+
+  strong {
+    color: var(--brand);
+    font-weight: bold;
+  }
+
+  @media (max-width: 480px) {
+    font-size: var(--text-sm);
+  }
+}
+
+.fundsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+.fundCard {
+  background: var(--background-light);
+  border: 1px solid var(--background-light);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: border-color 0.3s, transform 0.3s;
+
+  &:hover {
+    border-color: var(--brand);
+    transform: translateY(-4px);
+  }
+
+  @media (max-width: 480px) {
+    padding: 1.2rem;
+  }
+}
+
+.orgName {
+  font-size: var(--text-md);
+  font-weight: 700;
+  color: var(--brand);
+  margin-bottom: 0.5rem;
+
+  @media (max-width: 480px) {
+    font-size: var(--text-sm);
+  }
+}
+
+.amount {
+  font-size: var(--text-lg);
+  font-weight: 800;
+  color: var(--text);
+  display: block;
+  margin-bottom: 0.75rem;
+
+  @media (max-width: 480px) {
+    font-size: var(--text-md);
+  }
+}
+
+.fundDescription {
+  font-size: var(--text-sm);
+  color: var(--text);
+  opacity: 0.7;
+  line-height: 1.5;
+
+  @media (max-width: 480px) {
+    font-size: var(--text-xs);
+  }
+}
+
+.totalBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background-light);
+  border: 1px solid var(--brand);
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+
+  span {
+    font-size: var(--text-md);
+    color: var(--text);
+    opacity: 0.8;
+  }
+
+  strong {
+    font-size: var(--text-lg);
+    color: var(--brand);
+  }
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    gap: 0.4rem;
+    text-align: center;
+    padding: 1rem;
+
+    span {
+      font-size: var(--text-sm);
+    }
+
+    strong {
+      font-size: var(--text-md);
+    }
+  }
+}
+
+.sheetLink {
+  display: inline-block;
+  color: var(--brand);
+  font-weight: 600;
+  font-size: var(--text-md);
+  text-decoration: none;
+  transition: opacity 0.3s;
+  word-break: break-word;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  @media (max-width: 480px) {
+    font-size: var(--text-sm);
+  }
+}

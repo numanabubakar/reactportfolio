@@ -1,6 +1,6 @@
 import { Reveal } from "../utils/Reveal";
 import styles from "./contact.module.scss";
-import { AiFillMail } from "react-icons/ai";
+import { AiFillMail, AiFillPhone } from "react-icons/ai";
 import {Link} from "react-router-dom";
 
 export const Contact = () => {
@@ -34,6 +34,14 @@ export const Contact = () => {
             <div className={styles.contactEmail}>
               <AiFillMail size="2.4rem" />
               <span>numanabubakar99@gmail.com</span>
+            </div>
+          </Link>
+        </Reveal>
+        <Reveal width="100%">
+          <Link to="tel:+923026669399">
+            <div className={styles.contactEmail}>
+              <AiFillPhone size="2.4rem" />
+              <span>+92 302 6669399</span>
             </div>
           </Link>
         </Reveal>
